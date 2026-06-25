@@ -21,11 +21,10 @@ else:
 
 valor_desconto = valor_compra * (percentual_desconto / 100)
 
-
 valor_final = valor_compra - valor_desconto
 
 print(f"\nValor original: R$ {valor_compra:.2f}\n"
-    f"Desconto ({percentual_desconto:.0f}%): R$ {valor_desconto:.2f}\n"
+    f"Desconto ({percentual_desconto}%): R$ {valor_desconto:.2f}\n"
     f"Valor final: R$ {valor_final:.2f}"
     )
 
