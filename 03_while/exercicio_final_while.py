@@ -43,7 +43,7 @@ while True:
         print(f"\nSeu saldo atual é de R$ {saldo:.2f}")
 
     elif menu == 4:
-        print(f"Obrigado por utilizar PyBank como seu banco\n seu saldo atual é de {saldo:.2f}")
+        print(f"Obrigado por utilizar PyBank como seu banco, seu saldo atual é de {saldo:.2f}")
         break
 
     else:

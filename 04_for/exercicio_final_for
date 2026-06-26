@@ -1,0 +1,33 @@
+alunos = ["Ana", "Bruno", "Carlos", "Diana", "Eduardo"]
+notas =  [7.5, 4.2, 8.9, 3.1, 6.0]
+
+aprovados = 0
+soma_notas = 0
+reprovados = 0
+print("\n=== Relatório de Notas ===\n")
+
+for i  in range(len(alunos)):
+    soma_notas += notas[i]
+    if notas[i] >= 5:
+
+        print(f"{alunos[i]} → {notas[i]} ✓ Aprovado")
+        aprovados += 1
+        
+        
+    else:
+        print(f"{alunos[i]} → {notas[i]} ✗ Reprovado")
+        reprovados += 1
+
+
+total_alunos = reprovados + aprovados
+media = soma_notas / len(notas)
+
+print(
+f"Total de alunos: {total_alunos}\n"
+f"Aprovados: {aprovados}\n"
+f"Reprovados: {reprovados}\n"
+f"Média da turma: {media:.2f}\n"
+)
+
+
+
